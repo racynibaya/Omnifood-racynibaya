@@ -21,11 +21,11 @@
 
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Section 1</a></li>
-          <li><a class="main-nav-link" href="#">Section 2</a></li>
-          <li><a class="main-nav-link" href="#">Section 3</a></li>
-          <li><a class="main-nav-link" href="#">Section 4</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Section 5</a></li>
+          <li><a class="main-nav-link" href="#">How it works</a></li>
+          <li><a class="main-nav-link" href="#">Meals</a></li>
+          <li><a class="main-nav-link" href="#">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
     </header>
@@ -448,7 +448,7 @@
           </h2>
         </div>
 
-        <div class="container grid grid--2-cols">
+        <div class="container grid grid--2-cols margin-bottom-md">
           <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
@@ -511,13 +511,193 @@
             </div>
           </div>
         </div>
+
+        <div class="container grid">
+          <aside class="plan-details">
+            Prices include all applicable taxes. You can cancel at any time.
+            Both plans include the following:
+          </aside>
+        </div>
         <div class="container grid grid--4-cols">
-          <div class="feature">Feature 1</div>
-          <div class="feature">Feature 2</div>
-          <div class="feature">Feature 3</div>
-          <div class="feature">Feature 4</div>
+          <div class="feature">
+            <ion-icon name="infinite-outline" class="feature-icon"></ion-icon>
+            <p class="feature-title">Never cook again</p>
+            <p class="feature-text">
+              Our subscription cover 365 days per year, even including major
+              holidays.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon name="nutrition-outline" class="feature-icon"></ion-icon>
+            <p class="feature-title">Local and organic</p>
+            <p class="feature-text">
+              Our cooks only use local, fresh, and organic products to prepare
+              your meals.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon name="infinite-outline" class="feature-icon"></ion-icon>
+            <p class="feature-title">No waste</p>
+            <p class="feature-text">
+              All our partners only use reusable containers to package all your
+              meals.
+            </p>
+          </div>
+
+          <div class="feature">
+            <ion-icon name="pause-outline" class="feature-icon"></ion-icon>
+            <p class="feature-title">Pause anytime</p>
+            <p class="feature-text">
+              Going on vacation? Just pause your subscription, and we refund
+              unused days.
+            </p>
+          </div>
         </div>
       </section>
+
+      <section class="section-cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Get your first meal for free!</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+
+              <form action="/user" method="get" class="cta-form">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    name=""
+                    id="full-name"
+                    placeholder="Racyn Ibaya"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friend">Friends and family</option>
+                    <option value="youtube">Youtube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container grid grid--footer">
+          <div class="logo-col">
+            <a href="#" class="footer-logo"
+              ><img
+                src="img/omnifood-logo.png"
+                alt="Omnifood logo"
+                class="logo"
+            /></a>
+
+            <ul class="social-links">
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon
+                    name="logo-instagram"
+                    class="social-icon"
+                  ></ion-icon
+                ></a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon name="logo-twitter" class="social-icon"></ion-icon
+                ></a>
+              </li>
+
+              <li>
+                <a href="#" class="footer-link"
+                  ><ion-icon name="logo-github" class="social-icon"></ion-icon
+                ></a>
+              </li>
+            </ul>
+
+            <p class="copyright">
+              Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
+            </p>
+          </div>
+
+          <div class="address-col">
+            <p class="footer-heading">Contact us</p>
+            <address class="contacts">
+              <p>623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+
+              <p>
+                <a href="tel:6477026303" class="footer-link">647-702-6303</a
+                ><br /><a
+                  href="mailto:racynmundina@gmail.com"
+                  class="footer-link"
+                  >racynmundina@gmail.com</a
+                >
+              </p>
+            </address>
+          </div>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">About Omnifood</a></li>
+              <li><a href="#" class="footer-link">For Business</a></li>
+              <li><a href="#" class="footer-link">Cooking partners</a></li>
+              <li><a href="#" class="footer-link">Careers</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Account</p>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">Create account</a></li>
+              <li><a href="#" class="footer-link">Sign up</a></li>
+              <li><a href="#" class="footer-link">iOS app</a></li>
+              <li><a href="#" class="footer-link">Android app</a></li>
+            </ul>
+          </nav>
+
+          <nav class="nav-col">
+            <p class="footer-heading">Resources</p>
+            <ul class="footer-nav">
+              <li><a href="#" class="footer-link">Recipe directory</a></li>
+              <li><a href="#" class="footer-link">Help center</a></li>
+              <li><a href="#" class="footer-link">Privacy & terms</a></li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
     </main>
 
     <script

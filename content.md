@@ -102,10 +102,10 @@ Complete: $649 per month
 
 ### Contact information
 
-Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
+**Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
 Phone: 415-201-6370
-Email: hello@omnifood.com
-
+Email: hello@omnifood.com**
+****
 Social profiles: instagram, facebook, twitter [links to them not available yet]
 
 ### Additional links [links not available yet]
