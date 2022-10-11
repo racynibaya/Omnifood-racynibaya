@@ -273,7 +273,7 @@ strong {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -716,7 +716,7 @@ strong {
 /* ********************* */
 
 .section-cta {
-  padding: 4.8rem 0 12.8rem 0;
+  padding: 4.8rem 0 12f.8rem 0;
 }
 
 .cta {
@@ -871,3 +871,64 @@ strong {
 .footer-link:active {
   color: #555;
 }
+
+/* 1344px */
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+}
+
+/* 1200px small desktop */
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+}
+
+/* 944px tablets: (landscape) */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
+  .step-number {
+    font-size: 7.4rem;
+  }
+
+  .testimonials-container {
+    padding: 4.8rem;
+  }
+
+  .cta {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
