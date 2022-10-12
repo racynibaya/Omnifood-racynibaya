@@ -314,6 +314,7 @@ strong {
   cursor: pointer;
 
   display: none;
+  z-index: 9999;
 }
 
 .icon-mobile-nav {
@@ -1006,7 +1007,7 @@ strong {
 
   .nav-open .main-nav {
     transform: translateX(0);
-    opacity: 1;
+    opacity: 95%;
     pointer-events: auto;
     visibility: visible;
   }
@@ -1117,13 +1118,13 @@ strong {
 
   .cta-img-box {
     grid-row: 1;
-    height: 80vh;
+    height: 32rem;
     /* background-size: cover;
     background-position: center; */
   }
 
   .cta-text-box {
-    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+    padding: 3.2rem;
   }
 
   .step-img-box {
