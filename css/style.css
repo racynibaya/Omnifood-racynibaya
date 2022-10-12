@@ -65,6 +65,7 @@ box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -624,7 +625,6 @@ strong {
 
 .gallery-item img:hover {
   transform: scale(1.1);
-  opacity: 0.5;
 }
 
 /* --------------------- */
@@ -1065,6 +1065,62 @@ strong {
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+  }
+
+  .section-hero {
+    padding: 2.4rem 0 6.4rem 0;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .logos img {
+    height: 1.2rem;
+  }
+
+  .btn:link,
+  .btn:visited {
+    padding: 2.4rem 1.2rem;
+  }
+
+  .step-img-box:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .step-img-box:nth-child(6) {
+    grid-row: 5;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    padding: 1.2rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img-box {
+    grid-row: 1;
+    height: 40vh;
+  }
+
+  .cta-text-box {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+
+  .footer .container {
+    /* padding: 0 1.2rem; */
   }
 } /*
 
