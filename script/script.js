@@ -27,6 +27,8 @@ allLinks.forEach(function (link) {
 
       sectionEl.scrollIntoView({ behavior: 'smooth' });
     }
+
+    if (link.classList.contains('main-nav-link')) toggleNavigation();
   });
 });
 
