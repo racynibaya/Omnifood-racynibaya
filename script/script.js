@@ -51,6 +51,12 @@ const obs = new IntersectionObserver(
 );
 obs.observe(sectionHeroEl);
 
+if (window.innerWidth <= 944) {
+  console.log('less than 944px');
+  document.body.classList.remove('sticky');
+  obs.unobserve(sectionHeroEl);
+}
+
 function checkFlexGap() {
   let flex = document.createElement('div');
   flex.style.display = 'flex';
