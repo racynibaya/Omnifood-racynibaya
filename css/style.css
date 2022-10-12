@@ -320,7 +320,7 @@ strong {
 .icon-mobile-nav {
   height: 4.8rem;
   width: 4.8rem;
-  color: currentColor;
+  color: #555;
 }
 
 .icon-mobile-nav[name='close-outline'] {

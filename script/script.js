@@ -1,20 +1,15 @@
 const yearEl = document.querySelector('.year');
 const h1El = document.querySelector('.heading-primary');
 
-const mobileNavMenu = document.querySelector(
-  '.icon-mobile-nav[name="menu-outline"]'
-);
-const mobileNavClose = document.querySelector(
-  '.icon-mobile-nav[name="close-outline"]'
-);
+const btnMobileNav = document.querySelector('.btn-mobile-nav');
+
 const header = document.querySelector('header');
 
-function toggleNavOpen() {
+function toggleNavigation() {
   header.classList.toggle('nav-open');
 }
 
-mobileNavMenu.addEventListener('click', toggleNavOpen);
-mobileNavClose.addEventListener('click', toggleNavOpen);
+btnMobileNav.addEventListener('click', toggleNavigation);
 
 // Smooth scrolling
 const allLinks = document.querySelectorAll('a:link');
