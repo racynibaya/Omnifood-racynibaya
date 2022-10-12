@@ -1,8 +1,4 @@
-const yearEl = document.querySelector('.year');
-const h1El = document.querySelector('.heading-primary');
-
 const btnMobileNav = document.querySelector('.btn-mobile-nav');
-
 const header = document.querySelector('header');
 
 function toggleNavigation() {
